@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#bdr{
+    width: 98.5%;
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    display: block;
+}
+
+h2{
+    text-align: center;
+}
+
+#image{
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+img:hover{
+    box-shadow: 1px 2px 30px rgba(37, 50, 233, 1);
+}
